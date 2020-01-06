@@ -1,0 +1,168 @@
+/* Global and index page style setting goes down  */
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    float: right;
+    padding: 0.5rem 0 0.5em 0;
+}
+
+.nav-link {
+    color:#777777;
+}
+
+.nav-link::after {
+    margin-left: 1.5rem;
+    content: '|';
+    float: right;
+    color: #dddddd;
+}
+
+.nav-link:last-child::after {
+    display: none;
+}
+
+.rowBody {
+    display: table-row-group;     
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.header-heading{
+    margin-left: 20px;
+    float: left;
+    padding: 0.5em 1em 0.5em 1em;
+    color:#ffffff; 
+    background: #4aaaa5;
+    margin-bottom: 0;
+}
+
+.content-heading {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid  #dddddd;
+    margin-bottom: 20px;
+}
+.container{
+    margin-top: 20px;
+    background: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.main{
+    background-image: url(../images/criss-cross.png);
+    background-repeat: repeat;
+    flex: 1 0 auto;
+    padding-top: 2;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    flex-shrink: 0;
+}
+
+/* Styles for only contact page: */
+
+.btn {
+    margin: 10px;
+    background-color: #4aaaa5;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #ffffff;
+    margin-left: 0;
+    border: 1px solid;
+    box-shadow: 5px 10px #b9b7b7;
+}
+
+/* Styles for only portfolio page goes down */
+
+.portfolioImage {
+    margin: 30px;
+    border: 1px solid #666666;
+}
+
+.portfolioImageTitle {
+    color:#ffffff;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 15px;
+    margin-top: 14.5rem;
+} 
+
+.image1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFNbgOE8OrR6KSRE6vP0VyRRut-CljK3WVFwy-7fezPdV8m6ZIpA&s); 
+    background-size: cover !important;
+}
+
+.image2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-BzHV3nDah-vWzBAmiYLqMX-bPCVOh4opWOu_pGLbwSzCvhiq&s);
+    background-size: cover !important;
+}
+
+.image3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3cFfB9zkmLfewbDAD3eAV1wfAenli1P6HUTGqpVYj-Do0IH6Q&s);
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(https://www.sphereinc.com/wp-content/uploads/2016/02/Using-Node.js-to-Code-in-a-Functional-Style.jpg);
+    background-size: cover;
+}
+
+.image5 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_Pn222c_nxbdL6rEfrRyA1uQGaFIrsR3oHgzhivukjfnFrV7&s);
+    background-size: cover;
+}
+
+@media screen and (min-width: 980px) {
+    .container {
+        float: left;
+        width: 50%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .nav {
+        width: -webkit-fill-available;
+    }
+    .container {
+        width: 90%;
+    }
+    .header-heading {
+        width: -webkit-fill-available;
+        margin:0;
+        text-align: center;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+    }
+    .portfolioImage {
+        height: 300px;
+    }
+}
