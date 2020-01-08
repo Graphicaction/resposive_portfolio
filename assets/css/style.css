@@ -1,39 +1,23 @@
-/* Global and index page style setting goes down  */
-html, body {
-    height: 100%;
-}
-
-body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
+/* Style setting for all pages */
 .nav {
     float: right;
     padding: 0.5rem 0 0.5em 0;
 }
-
 .nav-link {
     color:#777777;
 }
-
 .nav-link::after {
     margin-left: 1.5rem;
     content: '|';
     float: right;
     color: #dddddd;
 }
-
 .nav-link:last-child::after {
     display: none;
 }
-
 .rowBody {
     display: table-row-group;     
 }
-
 .img {
     height: 200px;
     width: 200px;
@@ -41,8 +25,6 @@ body {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
-
 .header-heading{
     margin-left: 20px;
     float: left;
@@ -51,7 +33,6 @@ body {
     background: #4aaaa5;
     margin-bottom: 0;
 }
-
 .content-heading {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -73,7 +54,6 @@ body {
     flex: 1 0 auto;
     padding-top: 2;
 }
-
 .footer {
     width: 100%;
     text-align: center;
@@ -82,9 +62,7 @@ body {
     color: #ffffff;
     flex-shrink: 0;
 }
-
 /* Styles for only contact page: */
-
 .btn {
     margin: 10px;
     background-color: #4aaaa5;
@@ -92,51 +70,23 @@ body {
     padding-right: 25px;
     color: #ffffff;
     margin-left: 0;
-    border: 1px solid;
-    box-shadow: 5px 10px #b9b7b7;
 }
-
 /* Styles for only portfolio page goes down */
-
-.portfolioImage {
-    margin: 30px;
-    border: 1px solid #666666;
+.card {
+    width: 15rem;
+    margin-bottom: 2rem;
 }
-
-.portfolioImageTitle {
+.card-img-overlay {
+    padding: 0 !important;
+}
+.card-body {
     color:#ffffff;
+    width:100%;
     background: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    text-align: center;
-    padding: 15px;
-    margin-top: 14.5rem;
+    margin-top: 7.8rem;
 } 
-
-.image1 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFNbgOE8OrR6KSRE6vP0VyRRut-CljK3WVFwy-7fezPdV8m6ZIpA&s); 
-    background-size: cover !important;
-}
-
-.image2 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-BzHV3nDah-vWzBAmiYLqMX-bPCVOh4opWOu_pGLbwSzCvhiq&s);
-    background-size: cover !important;
-}
-
-.image3 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3cFfB9zkmLfewbDAD3eAV1wfAenli1P6HUTGqpVYj-Do0IH6Q&s);
-    background-size: cover;
-}
-
-.image4 {
-    background-image: url(https://www.sphereinc.com/wp-content/uploads/2016/02/Using-Node.js-to-Code-in-a-Functional-Style.jpg);
-    background-size: cover;
-}
-
-.image5 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_Pn222c_nxbdL6rEfrRyA1uQGaFIrsR3oHgzhivukjfnFrV7&s);
-    background-size: cover;
-}
-
+/* Responsive styles */
 @media screen and (min-width: 980px) {
     .container {
         float: left;
@@ -144,9 +94,7 @@ body {
         margin-left: 20px;
     }
 }
-
 @media screen and (max-width: 640px) {
-
     .nav {
         width: -webkit-fill-available;
     }
@@ -158,11 +106,11 @@ body {
         margin:0;
         text-align: center;
     }
-    .img {
+    .img, .cardImg, .card {
         width: 100%;
         height: auto;
     }
-    .portfolioImage {
-        height: 300px;
+    .card-body {
+        margin-top: 26rem;
     }
 }
