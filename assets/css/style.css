@@ -84,7 +84,6 @@
     width:100%;
     background: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    margin-top: 7.8rem;
 } 
 /* Responsive styles */
 @media screen and (min-width: 980px) {
@@ -109,8 +108,5 @@
     .img, .cardImg, .card {
         width: 100%;
         height: auto;
-    }
-    .card-body {
-        margin-top: 25rem;
     }
 }
