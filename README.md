@@ -9,7 +9,7 @@ The code editor used here is VScode.
 ## Usage:
 Clean and informative portfolio so that one can learn about the developer, find contact information, and follow links to projects and repositories.
 
-![Alt text](../assets/images/about.png?raw=true "About Me")
+![ScreenShot](../assets/images/about.png "About Me")
 
 ## Credits:
 UNC Chapelhill
