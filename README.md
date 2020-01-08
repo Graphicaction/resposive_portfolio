@@ -7,9 +7,12 @@ This project uses HTML and CSS with Bootstrap.
 The code editor used here is VScode. 
 
 ## Usage:
-Clean and informative portfolio so that one can learn about the developer, find contact information, and follow links to projects and repositories.
+- Clean and informative portfolio so that one can learn about the developer, find contact information, and follow links to projects and repositories. Some of the screens are:
+    - **About me**: Information about the developer .
+    - **Portfolio**: Showing featured projects .
+    - **Contact**: Contact form to the developer.
 
-![ScreenShot](../assets/images/about.png "About Me")
+![ScreenShot](assets/images/about.png "About Me")
 
 ## Credits:
 UNC Chapelhill
