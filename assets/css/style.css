@@ -1,7 +1,7 @@
 /* Style setting for all pages */
 .nav {
     float: right;
-    padding: 0.5rem 0 0.5em 0;
+    /* padding: 0.5rem 0 0.5em 0; */
 }
 .nav-link {
     color:#777777;
@@ -64,12 +64,8 @@
 }
 /* Styles for only contact page: */
 .btn {
-    margin: 10px;
     background-color: #4aaaa5;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: #ffffff;
-    margin-left: 0;
+   color: #ffffff;
 }
 /* Styles for only portfolio page goes down */
 .card {
