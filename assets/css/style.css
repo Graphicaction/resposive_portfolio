@@ -1,7 +1,6 @@
 /* Style setting for all pages */
 .nav {
     float: right;
-    /* padding: 0.5rem 0 0.5em 0; */
 }
 .nav-link {
     color:#777777;
@@ -19,11 +18,9 @@
     display: table-row-group;     
 }
 .img {
-    height: 200px;
-    width: 200px;
     float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    height: 15rem;
+    width: 12rem;
 }
 .header-heading{
     margin-left: 20px;
