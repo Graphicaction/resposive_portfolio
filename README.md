@@ -1,4 +1,4 @@
-# portfolio
+
 # The Repository
 This repository is about my portfolio. It is responsive in nature for large, medium and small screens. 
 
