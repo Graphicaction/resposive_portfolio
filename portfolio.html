@@ -30,15 +30,15 @@
             <div class="container my-3">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12 bodyHeading">
-                        <h2 class="content-heading">Portfolio</h2>
+                        <a href="portfolio.html"><h2 class="content-heading">Portfolio</h2></a>
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" id="projects">
                     <div class="d-flex justify-content-center col-sm-12 col-md-6 col-lg-6">
                         <!-- Dummy Project1 -->
                         <div class="card">
-                            <a href="https://graphicaction.github.io/codeQuiz/" target="_blank">
+                            <a href="#" onclick="codeQuiz()">
                                 <img src="assets/images/quizImg.jpg" class="cardImg" alt="...">
                                 <div class="card-img-overlay d-flex align-items-end mb-2">
                                     <div class="card-body">
@@ -51,7 +51,7 @@
 
                     <div class="d-flex justify-content-center col-sm-12 col-md-6 col-lg-6">    
                         <div class="card">
-                            <a href="https://graphicaction.github.io/weatherApi/" target="_blank">
+                            <a href="#" onclick="weatherApi()">
                                 <img src="assets/images/weatherImg.jpg" class="cardImg" alt="...">
                                 <div class="card-img-overlay d-flex align-items-end mb-2">
                                     <div class="card-body">
@@ -64,7 +64,7 @@
 
                     <div class="d-flex justify-content-center col-sm-12 col-md-6 col-lg-6">
                         <div class="card">
-                            <a href="https://finch23.github.io/Project1/" target="_blank">
+                            <a href="#" onclick="project1()">
                                 <img src="assets/images/DocDietImg.jpg" class="cardImg" alt="...">
                                 <div class="card-img-overlay d-flex align-items-end mb-2">
                                     <div class="card-body">
@@ -75,15 +75,28 @@
                         </div>
                     </div>
                 </div>
+                <div class="row text-center" id="contents">
+                    
+                    <h3 class="title mb-3"></h3>
+                    <a class="text1 mb-2" target="_blank">Github repository link</a>
+                    <p><a class="text2" target="_blank">Look at the deployed project!</a></p>
+                    
+                    <img src="" class="screen mt-3" alt="">
+                      
+                </div>
             </div>
             
         </section>
         
         <footer class="footer mt-auto py-3">
-            <a href="https://www.linkedin.com/in/rashmi-sharma9/" target="_blank"><i class="fab fa-linkedin fa-lg mx-2" style="color:#DDDDDD;"></i></a> <a href="https://github.com/Graphicaction" target="_blank"><i class="fab fa-github fa-lg mx-3" style="color:#DDDDDD;"></i></a>
+            Email: rksharma2679@gmail.com
+            <a href="https://www.linkedin.com/in/rashmi-sharma9/" target="_blank"><i class="fab fa-linkedin fa-lg mx-2" style="color:#DDDDDD;"></i></a> <a href="https://github.com/Graphicaction" target="_blank"><i class="fab fa-github fa-lg mr-2" style="color:#DDDDDD;"></i></a>
             <span>&copy; Copyright</span>
         </footer>
+
+        <script src="script.js"></script>
         <!-- Linking jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>

@@ -56,7 +56,7 @@
     text-align: center;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    color: #ffffff;
+    color:#DDDDDD;
     flex-shrink: 0;
 }
 /* Styles for only contact page: */
@@ -68,6 +68,13 @@
 .card {
     width: 15rem;
     margin-bottom: 2rem;
+}
+
+#contents {
+    display: none;
+}
+.screen {
+    width: 90%;
 }
 .card-img-overlay {
     padding: 0 !important;
