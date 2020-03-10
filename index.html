@@ -7,67 +7,150 @@
         <!-- Linking Bootstarp -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- Linking CSS -->
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <!-- Adding CDN for icons-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Lobster&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <!-- Header of the page with navigation links-->
-        <header>
-            <div class="clearfix">
-                <a href="index.html"><h2 class="header-heading">Rashmi Sharma</h2></a>
-                <nav class="nav justify-content-center m-3">
-                    <a class="nav-link" href="index.html">About</a>
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </nav>
+    <body class="my-page">
+        <div class="section">
+            <div class="row">
+                <!-- Left column for picture and links -->
+                <div class="col-sm-3 col-md-4 col-lg-3 nav-block text-center mx-4">
+                    <div class="nav-contents mx-2">
+                        <div class="my-5">
+                            <img class="img img-thumbnail mr-3 mb-3" src="assets/images/mypic.jpg" alt="My image">
+                            <h3>Rashmi Sharma</h3>
+                            <h5><i>Full-Stack Web Developer</i></h5>
+                        </div>
+                        
+                        <div class="nav flex-column nav-pills h5 mb-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="about-me-tab" data-toggle="pill" href="#about-me" role="tab" aria-controls="about-me" aria-selected="true">About me</a>
+                            <a class="nav-link" id="portfolio-tab" data-toggle="pill" href="#portfolio" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="pill" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact Info</a>
+                        </div>
+                        <div class="link-block my-5">
+                            <div class="link-content">
+                                <div class="social-icons">
+                                    <a rel="me" href="https://www.linkedin.com/in/rashmi-sharma9/" target="_blank" class="button button-icon">
+                                        <i class="fab fa-linkedin fa-lg mx-2" style="color:#DDDDDD;"></i>
+                                    </a>
+                                    
+                                    <a rel="me" href="https://github.com/Graphicaction" target="_blank" class="button button-icon">
+                                        <i class="fab fa-github fa-lg mr-2" style="color:#DDDDDD;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-7 col-lg-8 mx-2 my-4">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="about-me" role="tabpanel" aria-labelledby="about-me-tab">
+                            <h1 class="my-5">
+                                Hi, I am Rashmi!
+                            </h1> 
+                            <p class="h3 my-5">
+                                I am a Full-stack developer. 
+                            </p>
+                            <p class="h3 my-5">
+                                <i>“Writing code that a computer can understand is easy. Good programmers write semantic code that humans can understand.”</i>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
+                            <h1 class="border-top border-bottom border-dark p-4 headings">Some of my latest projects:</h1>
+                            <div class="card m-5">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <a href="https://github.com/Graphicaction/readme-generator/blob/master/images/screen.gif" target="_blank">
+                                            <img src="assets/images/readmeScreen.gif" class="card-img" alt="Code Quiz">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-5 col-md-5 col-lg-5 ml-4">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Readme-generator</h4>
+                                            <p class="card-text">'Readme-generator' application comes handy for users to create readme file for the repositories.</p>
+                                            <p class="card-text mt-4"><button class="btn">Technologies Used</button></p>
+                                            <p class="card-text mt-4"> <i>Node JS</i></p>
+                                            <p class="card-text"><small class="text-muted"><a href="https://github.com/Graphicaction/readme-generator" target="_blank">Github Repository</a></small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    
+                            <div class="card m-5">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <a href="https://graphicaction.github.io/weatherApi/" target="_blank">
+                                            <img src="assets/images/weatherScreen.png" class="card-img" alt="weatherApi">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-5 col-md-5 col-lg-5 ml-4">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Weather App</h4>
+                                            <p class="card-text">The weather application comes with search functionality to find current weather conditions and the future weather outlook for multiple cities. </p>
+                                            <p class="card-text mt-4"><button class="btn">Technologies Used</button></p>
+                                            <p class="card-text mt-4"><i>HTML5, CSS3, JS, JQuery, AJAX</i></p>
+                                            <p class="card-text"><small class="text-muted"><a href="https://github.com/Graphicaction/weatherApi" target="_blank">Github Repository</a></small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                
+                            <div class="card m-5">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <a href="https://finch23.github.io/Project1/" target="_blank">
+                                            <img src="assets/images/docDietScreen.png" class="card-img" alt="My Doctor & Diet">
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-5 col-md-5 col-lg-5 ml-4">
+                                        <div class="card-body">
+                                            <h4 class="card-title">My Doctor and Diet</h4>
+                                            <p class="card-text">Every patient is unique and each patient's treatment and diet plan should reflect that individuality.</p>
+                                            <p class="card-text mt-4"><button class="btn">Technologies Used</button></p> 
+                                            <p class="card-text mt-4"><i>HTML5, CSS3, JS, JQuery, AJAX</i></p>
+                                            <p class="card-text"><small class="text-muted"><a href="https://github.com/Finch23/Project1" target="_blank">Github Repository</a></small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <h1 class="border-top border-bottom border-dark p-4 headings">Contact me</h1>
+                            <table class="table table-borderless mt-4">
+                            <tr>
+                                <td>E-mail:</td>
+                                <td  class="contact-info-text">
+                                    <a href="#"><i class="icon fa fa-envelope"></i> <span>rksharma2679@gmail.com</span></a>
+                                </td>
+                            </tr>  
+                            <tr>
+                                <td>LinkedIn</td>
+                                <td class="contact-info-text"><a href="https://www.linkedin.com/in/rashmi-sharma9/" target="_blank"><i class="fab fa-linkedin fa-lg"></i> rashmi-sharma</a></td>
+                            </tr>
+                            <tr>
+                                <td>Github:</td>
+                                <td class="contact-info-text"><a href="https://github.com/graphicaction" target="_blank"><i class="fab fa-github fa-lg"></i> Graphicaction</a></td>
+                            </tr>   
+                            <tr>
+                                <td>Resume:</td>
+                                <td class="contact-info-text"><a href="https://drive.google.com/file/d/1JykVi2F5yuP_B3tX_9x4AwhSxIGg6Tcs/view?usp=sharing" target="_blank"><i class="far fa-sticky-note"></i> Rashmi Sharma</a></td>
+                            </tr>                        
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header> 
-
-        <section class="main">
-            <div class="container my-3">
-                <div class="row">
-                    <div class="col col-md-12 bodyHeading">
-                        <h2 class="content-heading">About Me</h2>
-                    </div>
-                </div>
-    
-                <div class="row rowBody">
-                    
-                    <img class="img img-thumbnail mr-3 mb-2" src="assets/images/mypic.jpg" alt="My image">
-                
-                    <div class="panelBody">
-                        <!-- Introduction goes here -->   
-                
-                        <p>
-                            My name is Rashmi. I live in North Carolina, but I call many places home. I am a mom, developer, cook and alot more.
-                        </p> 
-                        <p>
-                            I have done my bachelors in computer science. The coding world has always been changing and challenging, so its important to keep ourselves updated all the time. My current goal is to be a full stack developer. A full stack developer needs diverse set of skills, ranging from layout and design( HTML + CSS + javascript) to  server side applications in Node.js, React.js, databases. HTML, CSS and javascript are fun to work around(sometimes take little more time to make it fun:))
-                        </p>
-                        <p>
-                            My favorite passtime is to play with kids. I play games like cricket, basketball, chess, candycrush.
-                        </p>
-                        <p>
-                            Feel free to take a look at my most recent projects on my<a href="portfolio.html"> <i>portfolio page</i></a>
-                            and <a href="https://drive.google.com/file/d/1JykVi2F5yuP_B3tX_9x4AwhSxIGg6Tcs/view?usp=sharing" target="_blank"><i> resume</i></a>.
-                        </p>
-                    </div>
-                
-                    
-                </div>
-            </div> 
-        </section>
-        
+        </div>
         <footer class="footer mt-auto py-3">
-            Email: rksharma2679@gmail.com
-            <a href="https://www.linkedin.com/in/rashmi-sharma9/" target="_blank"><i class="fab fa-linkedin fa-lg mx-2" style="color:#DDDDDD;"></i></a> <a href="https://github.com/Graphicaction" target="_blank"><i class="fab fa-github fa-lg mr-2" style="color:#DDDDDD;"></i></a>
             <span>&copy; Copyright</span>
         </footer>
-        <!-- Linking jQuery -->
+        <!-- Adding bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
+
+
