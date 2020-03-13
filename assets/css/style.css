@@ -1,24 +1,26 @@
+
 /* setting image style and background pic */
 .img {
     border-radius: 50%;
     width: 70%;
     height: auto;
-    z-index: 3;
 }
 .my-page {
     background-image: url(../images/backgroundImg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
 }
 /* style for left section and all buttons */
 .nav-block, .btn {
-    z-index: 1;
     background-color: maroon;
     opacity:0.8;
     color: white;
 }
 .nav-contents {
     color: white;
-    z-index: 2;
 }
 /* style for all texts */
 h1, h2 {
@@ -30,20 +32,24 @@ h1, h2 {
     /* //font-family: 'Libre Baskerville', serif; */
 }
 /* Following CSS for sticky footer */
-body {
-    display: flex;
-    flex-direction: column;
-}
-.section {
-    flex: 1 0 auto;
-}
 .footer {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     background-color: #666666;
     border-top: 8px solid maroon;
     color:#DDDDDD;
     flex-shrink: 0;
+}
+/* Stlyes for portfolio tab */
+.portfolio-nav {
+    background-color: rgb(46, 44, 44);
+}
+.portfolio-div {
+    width: 80%;
+    margin: 0 auto;
+}
+.card-img {
+    width: 60%;
 }
 
 /* Style for text */
