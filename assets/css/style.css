@@ -12,7 +12,7 @@
 /* style for left section and all buttons */
 .nav-block, .btn {
     z-index: 1;
-    background-color: tomato;
+    background-color: maroon;
     opacity:0.8;
     color: white;
 }
@@ -41,7 +41,7 @@ body {
     width: 100%;
     text-align: center;
     background-color: #666666;
-    border-top: 8px solid tomato;
+    border-top: 8px solid maroon;
     color:#DDDDDD;
     flex-shrink: 0;
 }
@@ -59,6 +59,6 @@ body {
 
 .tech-btn {
     display: inline;
-    border: 1px solid tomato;
+    border: 1px solid maroon;
     background-color: lightgray;
 }
