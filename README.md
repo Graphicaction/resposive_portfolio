@@ -13,7 +13,7 @@ The code editor used here is VScode.
     - **Contact**: Contact form to the developer.
 
 ## Deployed link:
-- https://graphicaction.github.io/resposive_portfolio/
+- https://graphicaction.github.io/rsharma_portfolio/
 
 ![ScreenShot](assets/images/about.png "About Me")
 
