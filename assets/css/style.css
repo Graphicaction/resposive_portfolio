@@ -1,4 +1,3 @@
-
 /* setting image style and background pic */
 .img {
     border-radius: 50%;
@@ -29,7 +28,6 @@ h1, h2 {
     font-weight: bolder;
     letter-spacing: 2px;
     color: white;
-    /* //font-family: 'Libre Baskerville', serif; */
 }
 /* Following CSS for sticky footer */
 .footer {
