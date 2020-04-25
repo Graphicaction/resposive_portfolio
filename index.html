@@ -62,7 +62,10 @@
                             <div class="border mt-3 portfolio-div">
                                 <ul class="nav nav-pills portfolio-nav" id="myTab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="tab" href="#code-query" role="tab" aria-selected="true">Code Query</a>
+                                        <a class="nav-link active" data-toggle="tab" href="#workout" role="tab" aria-selected="true">WorkoutTracker</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#code-query" role="tab" aria-selected="false">Code Query</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" href="#eat-da-burger" role="tab" aria-selected="false">Eat-Da-Burger</a>
@@ -81,7 +84,26 @@
                                     </li>
                                 </ul>
                                 <div class="tab-content mt-1">
-                                    <div class="tab-pane fade show active" id="code-query" role="tabpane6">
+                                    <div class="tab-pane fade show active" id="workout" role="tabpane7">
+                                        <div class="card border-0 text-center">
+                                            <a href="https://fitness-trac.herokuapp.com/" target="_blank">
+                                                <img src="assets/images/workoutScreen.png" class="card-img" alt="Workout Screen">
+                                            </a>
+                                        
+                                            <div class="card-body">
+                                                <h4 class="card-title">Workout Tracker</h4>
+                                                <p class="card-text">Workout tracker app helps one to view, create and track daily workouts. The user can log multiple exercises in a workout on a given day.</p>
+                                                <p class="card-text mt-4"><button class="btn">Technologies Used</button></p> 
+                                                <p class="card-text mt-4"><div class="tech-btn px-2 m-1 rounded-pill">Node.js</div>
+                                                    <div class="tech-btn px-2 m-1 rounded-pill">Express</div>
+                                                    <div class="tech-btn px-2 m-1 rounded-pill">MongoDB</div>
+                                                    <div class="tech-btn px-2 m-1 rounded-pill">HTML</div>
+                                                    <div class="tech-btn px-2 m-1 rounded-pill">CSS</div>
+                                                <p class="card-text"><a href="https://github.com/Graphicaction/workout_tracker" target="_blank">Github Repository</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="code-query" role="tabpane6">
                                         <div class="card border-0 text-center">
                                             <a href="https://code--query.herokuapp.com/" target="_blank">
                                                 <img src="assets/images/code-query.png" class="card-img" alt="Code Query">
